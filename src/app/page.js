@@ -39,7 +39,7 @@ export default function Home() {
       </section>
       <section className='bg-white py-8 px-4'>
         <h1 className='text-red-500 text-2xl font-semibold text-center mb-4'>See our work</h1>
-          <div className='grid lg:grid-cols-3 gap-x-6 gap-y-4 text-white lg:px-12 lg:py-8'>
+          <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-x-6 gap-y-8 text-white lg:px-12 lg:py-8 md:px-8'>
             <div className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg'>
               <img src='https://i.postimg.cc/prQH8LbB/driveways.webp' className='rounded-lg'/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Driveways</p>
