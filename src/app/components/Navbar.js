@@ -21,7 +21,7 @@ const Navbar = () => {
             <li className='hover:text-[#f46868]'><Link href={'/pool-decks'}>Pool decks</Link></li>
             <li className='hover:text-[#f46868]'><Link href={'/walk-ways'}>Walk ways</Link></li>
           </ul>
-          <button className='bg-[#f46868] p-2 rounded-lg mt-28'>Contact us</button>
+          <button className='bg-[#f46868] p-2 rounded-lg mt-28 text-white'><a href='#contact'>Contact us</a></button>
         </nav>
         <div className='w-full absolute top-0 right-0 bg-black opacity-50 z-10 h-screen'></div>
       </>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <li className='hover:text-[#f46868]'><Link href={'/pool-decks'}>Pool decks</Link></li>
             <li className='hover:text-[#f46868]'><Link href={'/walk-ways'}>Walk ways</Link></li>
         </ul>
-        <button className='bg-[#f46868] p-2 rounded-lg  hover:shadow-lg hover:border-dotted'>Contact us</button>
+        <button className='bg-[#f46868] p-2 rounded-lg  text-white'><a href='#contact'>Contact us</a></button>
       </nav>
     </div>
   )

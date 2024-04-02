@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='font-Poppins  flex flex-col text-[#d5d6d5]'>
+      <body className='font-Poppins  flex flex-col text-[#d5d6d5] scroll-smooth'>
         <Navbar />
         {children}
         </body>

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import InfoCard1 from './components/InfoCard1'
 import InfoCard2 from './components/InfoCard2'
 import InfoCard3 from './components/InfoCard3'
+import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import { Carousel } from "flowbite-react";
 export const metadata = {
@@ -12,7 +13,7 @@ export const metadata = {
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col scroll-smooth">
       <section className='flex relative bg-stone-100 py-6 lg:py-12 lg:items-center lg:px-16 flex-col lg:flex-row'>
         <div className='mx-6 text-black rounded-lg p-4  lg:w-1/2'>
           <h1 className='text-3xl font-semibold text-red-500'>Nk construction LLC</h1>
@@ -22,7 +23,7 @@ export default function Home() {
             <IoLogoFacebook className='w-6 h-6 text-blue-600'/>
             <LuInstagram className='w-6 h-6 text-red-500'/>
           </div> */}
-                  <button className='bg-red-500 p-2 rounded-lg  hover:shadow-lg hover:border-dotted text-white my-2'>Free estimate</button>
+                  <button className='bg-red-500 p-2 rounded-lg  hover:shadow-lg hover:border-dotted text-white my-2'>Contact us</button>
 
         </div>
         <a href="https://storyset.com/work" className='flex lg:w-1/2 justify-center items-center'><img src='/Construction-rafiki.svg' className='flex lg:w-[450px] lg:h-[450px] h-96 w-96'/></a>
@@ -53,6 +54,9 @@ export default function Home() {
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Walk ways</p>
             </div>
           </div>
+      </section>
+      <section className='py-4 px-4 bg-gray-200' id='contact'>
+          <ContactSection />
       </section>
       <Footer />
     </main>
