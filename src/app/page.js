@@ -23,7 +23,7 @@ export default function Home() {
             <IoLogoFacebook className='w-6 h-6 text-blue-600'/>
             <LuInstagram className='w-6 h-6 text-red-500'/>
           </div> */}
-                  <button className='bg-red-500 p-2 rounded-lg  hover:shadow-lg hover:border-dotted text-white my-2'>Contact us</button>
+          <button className='bg-red-500 p-2 rounded-lg  text-white mt-2'><a href='#contact'>Contact us</a></button>
 
         </div>
         <a href="https://storyset.com/work" className='flex lg:w-1/2 justify-center items-center'><img src='/Construction-rafiki.svg' className='flex lg:w-[450px] lg:h-[450px] h-96 w-96'/></a>

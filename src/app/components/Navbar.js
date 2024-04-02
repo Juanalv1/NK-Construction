@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className='flex px-4 py-2 items-center gap-x-2 border-b-red-500  border-solid justify-between lg:justify-normal relative top-0 right-0  bg-stone-500 lg:px-12'>
+    <div className='flex px-4 items-center gap-x-2 border-b-red-500  border-solid justify-between lg:justify-normal relative top-0 right-0  bg-stone-500 lg:px-12 text-white'>
       <img src='/prueba.png' className='max-w-28'/>
       <IoMenu className='w-12 h-12 text-[#f46868] lg:hidden flex' onClick={() => setIsMenuOpen(true)}/>
       {isMenuOpen && (
