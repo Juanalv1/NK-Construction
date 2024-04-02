@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col scroll-smooth">
-      <section className='flex relative bg-stone-100 py-6 lg:py-12 lg:items-center lg:px-16 flex-col lg:flex-row'>
+      <section className='flex relative bg-gray-200 py-6 lg:py-12 lg:items-center lg:px-16 flex-col lg:flex-row'>
         <div className='mx-6 text-black rounded-lg p-4  lg:w-1/2'>
           <h1 className='text-3xl font-semibold text-red-500'>Nk construction LLC</h1>
           <h2 className='text-lg text-red-500 font-medium'>Concrete pumping service</h2>
@@ -27,16 +27,6 @@ export default function Home() {
 
         </div>
         <a href="https://storyset.com/work" className='flex lg:w-1/2 justify-center items-center'><img src='/Construction-rafiki.svg' className='flex lg:w-[450px] lg:h-[450px] h-96 w-96'/></a>
-      </section>
-      <section className='bg-gray-200 py-12 px-4 border-t-red-500 border-solid border-t-2'>
-        <h2 className='text-red-500 font-semibold text-2xl mb-4  text-center'>About us
-        </h2>
-        <div className='flex flex-col lg:flex-row gap-y-6 gap-x-6 lg:px-12'>
-          <InfoCard1 />
-          <InfoCard2 />
-          <InfoCard3 />
-        </div>
-
       </section>
       <section className='bg-white py-8 px-4'>
         <h1 className='text-red-500 text-2xl font-semibold text-center mb-4'>See our work</h1>
@@ -55,7 +45,18 @@ export default function Home() {
             </div>
           </div>
       </section>
-      <section className='py-4 px-4 bg-gray-200' id='contact'>
+      <section className='bg-gray-200 py-12 px-4 '>
+        <h2 className='text-red-500 font-semibold text-2xl mb-4  text-center'>About us
+        </h2>
+        <div className='flex flex-col lg:flex-row gap-y-6 gap-x-6 lg:px-12'>
+          <InfoCard1 />
+          <InfoCard2 />
+          <InfoCard3 />
+        </div>
+
+      </section>
+
+      <section className='py-4 px-4 bg-white' id='contact'>
           <ContactSection />
       </section>
       <Footer />
