@@ -36,6 +36,30 @@ const data = [
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
     ],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+  },
+  {
+    work_name: 'Patios',
+    photos: [
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg', 'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+  },
+  {
+    work_name: 'Decorative concrete',
+    photos: [
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg', 'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+    ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
   }
 ]
 
