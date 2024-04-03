@@ -5,6 +5,7 @@ import InfoCard3 from './components/InfoCard3'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import { Carousel } from "flowbite-react";
+import Link from 'next/link'
 export const metadata = {
   title: 'Nk construction | Concrete pumping service',
   description: 'Nk construction provides best concrete pumping service in Dallas',
@@ -16,8 +17,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col scroll-smooth">
       <section className='flex relative bg-gray-200 py-6 lg:py-12 lg:items-center lg:px-16 flex-col lg:flex-row'>
         <div className='mx-6 text-black rounded-lg p-4  lg:w-1/2'>
-          <h1 className='text-3xl font-semibold text-red-500'>Nk construction LLC</h1>
-          <h2 className='text-lg text-red-500 font-medium'>Concrete pumping service</h2>
+          <h1 className='text-4xl font-semibold text-red-500'>Nk construction LLC</h1>
+          <h2 className='text-xl text-red-500 font-medium'>Concrete pumping service</h2>
           <p className='my-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit tempor ex. Duis sed urna varius, hendrerit quam vitae, vehicula orci. Praesent lacinia ex non risus rutrum, id convallis odio tincidunt.</p>
           {/* <div className='flex gap-x-4  items-center mt-4'>
             <IoLogoFacebook className='w-6 h-6 text-blue-600'/>
@@ -31,18 +32,18 @@ export default function Home() {
       <section className='bg-white py-8 px-4'>
         <h1 className='text-red-500 text-2xl font-semibold text-center mb-4'>See our work</h1>
           <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-x-6 gap-y-8 text-white lg:px-12 lg:py-8 md:px-8'>
-            <div className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg'>
+            <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg' href={'/works/driveways'}>
               <img src='https://i.postimg.cc/prQH8LbB/driveways.webp' className='rounded-lg'/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Driveways</p>
-            </div>
-            <div className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg'>
+            </Link>
+            <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg' href={'/works/pool-decks'}>
               <img src='https://i.postimg.cc/bNHnYxMZ/pool.jpg' className='rounded-lg'/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Pool decks</p>
-            </div>
-            <div className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg'>
+            </Link>
+            <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg' href={'/works/walk-ways'}>
               <img src='https://i.postimg.cc/L8BGp7D7/walk-way.jpg' className='rounded-lg h-full'/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Walk ways</p>
-            </div>
+            </Link>
           </div>
       </section>
       <section className='bg-gray-200 py-12 px-4 '>
@@ -53,13 +54,10 @@ export default function Home() {
           <InfoCard2 />
           <InfoCard3 />
         </div>
-
       </section>
-
       <section className='py-4 px-4 bg-white' id='contact'>
           <ContactSection />
       </section>
-      <Footer />
     </main>
   )
 }

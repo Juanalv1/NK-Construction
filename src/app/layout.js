@@ -1,6 +1,7 @@
 
 import './globals.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className='font-Poppins  flex flex-col text-[#d5d6d5] scroll-smooth'>
         <Navbar />
         {children}
+        <Footer />
         </body>
     </html>
   )
