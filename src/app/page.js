@@ -19,7 +19,7 @@ export default function Home() {
         <div className='mx-6 text-black rounded-lg p-4  lg:w-1/2'>
           <h1 className='text-4xl font-semibold text-red-500'>Nk construction LLC</h1>
           <h2 className='text-xl text-red-500 font-medium'>Concrete pumping service</h2>
-          <p className='my-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit tempor ex. Duis sed urna varius, hendrerit quam vitae, vehicula orci. Praesent lacinia ex non risus rutrum, id convallis odio tincidunt.</p>
+          <p className='my-2'>Welcome to Nk Construction LLC, your trusted partner for top-tier concrete services. With a commitment to excellence and a focus on customer satisfaction, we deliver superior results for projects of any scale. From residential renovations to commercial constructions.</p>
           {/* <div className='flex gap-x-4  items-center mt-4'>
             <IoLogoFacebook className='w-6 h-6 text-blue-600'/>
             <LuInstagram className='w-6 h-6 text-red-500'/>

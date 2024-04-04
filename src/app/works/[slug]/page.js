@@ -11,7 +11,7 @@ const data = [
       'https://i.postimg.cc/prQH8LbB/driveways.webp',
       'https://i.postimg.cc/prQH8LbB/driveways.webp',
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+    description: 'Explore our gallery of driveway projects to discover stunning transformations and exceptional craftsmanship. From sleek modern designs to classic and durable solutions, our skilled team brings your driveway visions to life with precision and quality. Each project is tailored to enhance your property aesthetics, functionality, and curb appeal.'
   },
   {
     work_name: 'Pool decks',
@@ -23,7 +23,7 @@ const data = [
       'https://i.postimg.cc/bNHnYxMZ/pool.jpg',
       'https://i.postimg.cc/bNHnYxMZ/pool.jpg',
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+    description: 'Dive into luxury and relaxation with our pool deck showcase! Immerse yourself in a world of stylish poolside retreats, where every deck is a seamless blend of form and function. From sleek modern designs to timeless classics, our portfolio features an array of pool decks crafted to enhance your outdoor oasis. Whether you envision a resort-style paradise or a serene escape, our skilled team brings your vision to life with precision and expertise. Explore our collection and envision your ideal poolside sanctuary, where every moment is an indulgence in luxury and leisure!'
   },
   {
     work_name: 'Walk ways',
@@ -35,7 +35,7 @@ const data = [
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+    description: 'Embark on a journey of elegance and functionality with our walkways display! Meander through our gallery of walkway projects, where each path is a testament to meticulous craftsmanship and thoughtful design. From charming garden pathways to grand entrance walkways, our portfolio showcases a diverse range of styles and materials tailored to complement any landscape. Whether you seek a seamless transition between outdoor spaces or a captivating focal point, our team creates walkways that enhance both the beauty and accessibility of your property. Take a stroll through our collection and envision the possibilities for your own outdoor spaces!'
   },
   {
     work_name: 'Patios',
@@ -47,7 +47,7 @@ const data = [
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+    description: 'Step into our world of outdoor living with our patio showcase! Explore an array of inviting and stylish patio designs that seamlessly blend functionality with aesthetics. From cozy retreats perfect for intimate gatherings to expansive entertaining spaces, our portfolio showcases the versatility and creativity of our patio designs. Whether you seek a rustic retreat or a contemporary oasis, our team is dedicated to crafting outdoor spaces that enhance your lifestyle and elevate your homes appeal. Dive into our collection and let us inspire your next outdoor escape!'
   },
   {
     work_name: 'Decorative concrete',
@@ -59,7 +59,7 @@ const data = [
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tincidunt consectetur. Sed scelerisque diam sit amet tortor volutpat volutpat. Sed vel pulvinar tortor, eu placerat dui. Sed faucibus nibh ut condimentum bibendum. Morbi vel ipsum porttitor, tempus nibh blandit, dictum elit. Donec tincidunt lorem eu ligula ultrices efficitur. Sed tincidunt eleifend fringilla.'
+    description: 'Discover the artistry of decorative concrete in our gallery! Immerse yourself in a world where concrete transcends its utilitarian roots to become a stunning focal point of design. From intricate patterns to rich textures, our showcase highlights the endless possibilities of decorative concrete. Whether you desire the timeless elegance of stamped concrete or the modern flair of stained concrete, our skilled artisans transform ordinary surfaces into extraordinary works of art. Explore our collection and unleash the potential of decorative concrete in your home or commercial space!'
   }
 ]
 
