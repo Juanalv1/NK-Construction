@@ -60,6 +60,18 @@ const data = [
       'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
     ],
     description: 'Discover the artistry of decorative concrete in our gallery! Immerse yourself in a world where concrete transcends its utilitarian roots to become a stunning focal point of design. From intricate patterns to rich textures, our showcase highlights the endless possibilities of decorative concrete. Whether you desire the timeless elegance of stamped concrete or the modern flair of stained concrete, our skilled artisans transform ordinary surfaces into extraordinary works of art. Explore our collection and unleash the potential of decorative concrete in your home or commercial space!'
+  },
+  {
+    work_name: 'Concrete pumping',
+    photos: [
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg', 'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+    ],
+    description: 'From foundations to high-rise structures, our concrete pumping service offers unparalleled speed, accuracy, and versatility, saving you time and labor costs. Trust Nk Construction LLC to elevate your project with seamless concrete delivery, tailored to meet your specific needs and deadlines. Experience the difference of professional concrete pumping for your next construction endeavor.'
   }
 ]
 

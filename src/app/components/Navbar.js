@@ -25,6 +25,7 @@ const Navbar = () => {
             <li className='hover:text-[#f46868]'><Link href={'/works/decorative-concrete'}>Decorative Concrete</Link></li>
             <li className='hover:text-[#f46868]'><Link href={'/works/pool-decks'}>Pool decks</Link></li>
             <li className='hover:text-[#f46868]'><Link href={'/works/walk-ways'}>Walk ways</Link></li>
+            <li className='hover:text-[#f46868]'><Link href={'/works/concrete-pumping'}>Concrete Pumping</Link></li>
           </ul>
           <button className='bg-[#f46868] p-2 rounded-lg mt-28 text-white'><a href='#contact'>Contact us</a></button>
         </nav>
@@ -38,6 +39,7 @@ const Navbar = () => {
             <li className='hover:text-[#f46868]'><Link href={'/works/decorative-concrete'}>Decorative Concrete</Link></li>
             <li className='hover:text-[#f46868]'><Link href={'/works/pool-decks'}>Pool decks</Link></li>
             <li className='hover:text-[#f46868]'><Link href={'/works/walk-ways'}>Walk ways</Link></li>
+            <li className='hover:text-[#f46868]'><Link href={'/works/concrete-pumping'}>Concrete pumping</Link></li>
         </ul>
         <button className='bg-[#f46868] p-2 rounded-lg  text-white'><a href='/#contact'>Contact us</a></button>
       </nav>
