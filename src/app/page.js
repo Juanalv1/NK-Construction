@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import { Carousel } from "flowbite-react";
 import Link from 'next/link'
 export const metadata = {
-  title: 'Nk construction | Concrete pumping service',
+  title: 'Nk construction | Concrete Construction service',
   description: 'Nk construction provides best concrete pumping service in Dallas',
 }
 

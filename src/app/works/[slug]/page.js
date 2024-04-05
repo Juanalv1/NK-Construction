@@ -82,7 +82,7 @@ export async function generateMetadata({ params  }) {
   const worktype = data.find((work) => work.work_name.toLowerCase() == slug.toLowerCase().replace(/-/g, ' '))
   if (worktype) {
     return {
-      title: worktype.work_name,
+      title: `${worktype.work_name} | Nk Construction`,
       description: `View ${worktype.description}`
     }
   }
