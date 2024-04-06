@@ -55,7 +55,7 @@ export default function Home() {
           <div className='grid lg:grid-cols-3 md-grid-cols- gap-x-6 gap-y-8 text-white lg:px-12 lg:py-8 md:px-8 place-content-center place-items-center'>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/patios'}>
             <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/L8BGp7D7/walk-way.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/Y9nxVgJS/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-49d688ca.jpg' className='rounded-lg w-full h-full'/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Patios</p>
             </Link>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/decorative-concrete'}>
@@ -70,14 +70,14 @@ export default function Home() {
             </Link>
           </div>
       </section>
-      <section className='bg-gray-200 py-12 px-4 '>
-        <h2 className='text-red-500 font-semibold text-2xl mb-4  text-center'>About us
+      <section className=' py-28 px-4 text-black lg:px-72 lg:py-32 bg-[url(https://i.postimg.cc/Cxd0D7mv/Imagen-de-Whats-App-2024-04-06-a-las-14-50-33-39c04afb.jpg)] bg-cover bg-center relative'>
+        <div className='absolute top-0 right-0 h-full w-full bg-gray-900 opacity-70'></div>
+        <h2 className='text-red-500 font-bold text-4xl mb-4  text-center z-20 relative '>Commercial
         </h2>
-        <div className='flex flex-col lg:flex-row gap-y-6 gap-x-6 lg:px-12'>
-          <InfoCard1 />
-          <InfoCard2 />
-          <InfoCard3 />
-        </div>
+        <p className='text-center z-20 relative text-white font-medium'> 
+          Nk construction can do it all we work at elevated wood/metal framed balconies, landings, breezeways and stair pans 
+          Waterproofing at balconies, breezeways, landings and more
+        </p>
       </section>
       <section className='py-4 px-4 bg-white' id='contact'>
           <ContactSection />
