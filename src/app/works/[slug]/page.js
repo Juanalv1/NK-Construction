@@ -52,12 +52,14 @@ const data = [
   {
     work_name: 'Patios',
     photos: [
-      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg', 'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
-      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
-      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
-      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
-      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
-      'https://i.postimg.cc/L8BGp7D7/walk-way.jpg',
+      'https://i.postimg.cc/Y9nxVgJS/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-49d688ca.jpg',
+      'https://i.postimg.cc/j2Dhr2b4/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-8546beb5.jpg',
+      'https://i.postimg.cc/NMf4pbCV/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-ae866b0c.jpg',
+      'https://i.postimg.cc/j2B4qTq0/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-c43908a5.jpg',
+      'https://i.postimg.cc/XvgLftLd/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-f28dcd22.jpg',
+      'https://i.postimg.cc/GpRzsbFb/Imagen-de-Whats-App-2024-04-06-a-las-16-44-59-cab99564.jpg',
+      'https://i.postimg.cc/x1MtCXbs/p.jpg',
+      
     ],
     description: 'Step into our world of outdoor living with our patio showcase! Explore an array of inviting and stylish patio designs that seamlessly blend functionality with aesthetics. From cozy retreats perfect for intimate gatherings to expansive entertaining spaces, our portfolio showcases the versatility and creativity of our patio designs. Whether you seek a rustic retreat or a contemporary oasis, our team is dedicated to crafting outdoor spaces that enhance your lifestyle and elevate your homes appeal. Dive into our collection and let us inspire your next outdoor escape!'
   },
