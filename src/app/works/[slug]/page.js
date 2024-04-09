@@ -99,7 +99,10 @@ export async function generateMetadata({ params  }) {
   if (worktype) {
     return {
       title: `${worktype.work_name} | Nk Construction`,
-      description: `View ${worktype.description}`
+      description: `View ${worktype.description}`,
+      alternates: {
+        canonical: `https://nkconstructionllc.com/works/${slug}`,
+      },
     }
   }
 
