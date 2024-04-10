@@ -82,9 +82,9 @@ export default function Home() {
           Waterproofing at balconies, breezeways, landings and more
         </p>
       </section>
-      <section className='px-4 py-6 bg-gray-200 lg:px-28 lg:py-8'>
-        <h2 className='text-xl text-red-500 font-semibold text-center'>Why choose us?</h2>
-        <div className='grid md:grid-cols-2 place-content-center place-items-center gap-x-8 gap-y-8 mt-4 lg:mt-8'>
+      <section className='px-4 py-6 bg-gray-200 lg:px-28 lg:py-16'>
+        <h2 className='text-2xl text-red-500 font-semibold text-center'>Why choose us?</h2>
+        <div className='grid md:grid-cols-2 place-content-center place-items-center gap-x-16 gap-y-8 mt-4 lg:mt-8'>
           <InfoCard1 />
           <InfoCard2 />
         </div>
