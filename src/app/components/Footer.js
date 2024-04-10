@@ -8,7 +8,8 @@ const Footer = () => {
   return (
     <section className='grid grid-cols-1 lg:grid-cols-3 p-4 text-gray-700 py-8 flex-col bg-gray-200 md:flex-row lg:px-28' >
       <div className='text-center'>
-        <p>Lenyn Torres </p>
+        <p>Lenyn Henriquez Torres </p>
+        <p>Call or text</p>
         <p className='flex justify-center items-center gap-x-1'><IoCall/> (704) 6005487</p>
         <p>Dallas NC 28034</p>
       </div>
