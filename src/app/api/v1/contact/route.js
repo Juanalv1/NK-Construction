@@ -3,6 +3,7 @@ import nodemailer from 'nodemailer'
 
 export async function POST(req){
   const {email, name, phone_number, description} = await req.json()
+  console.log(process.env.HOST_PASSWORD, process.env.HOST_USERNAME)
 
   const transporter = nodemailer.createTransport({
     host: "mail.privateemail.com",
