@@ -38,7 +38,7 @@ const ContactSection = () => {
       <div className='w-full h-full absolute top-0 right-0 bg-gray-900 opacity-50 rounded-lg z-10 '></div>
       <div className='z-20 relative w-full h-full'>
       <h3 className='text-red-500 font-bold text-3xl text-center mb-4'>Contact us</h3>
-      {isSuccess && (<SuccessMesssage text={'Formulario enviado exitosamente'}/>)}
+      {isSuccess && (<SuccessMesssage text={'Form sent successfully!'}/>)}
       <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col text-black'>
         <label className='text-white'>Name</label>
         {errors.name && (<p className='text-xs text-red-500 my-1'>This field is required</p>)}
