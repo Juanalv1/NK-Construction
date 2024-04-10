@@ -1,11 +1,11 @@
 import React from 'react'
-import { LuConstruction } from "react-icons/lu";
+import { FaCheckSquare } from "react-icons/fa";
 
 const InfoCard2 = () => {
   return (
     <div className='flex flex-col justify-center p-4 rounded-lg shadow-xl gap-y-6 items-center bg-white px-8'>
-      <LuConstruction className='w-10 h-10 text-red-500'/>
-      <p className='text-[#747474]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit tempor ex. Duis sed urna varius, hendrerit quam vitae, vehicula orci. Praesent lacinia ex non risus rutrum, id convallis odio tincidunt. Proin ultricies massa nec egestas pulvinar. Etiam nunc justo, egestas eu orci ut, dapibus euismod nulla.</p>
+      <FaCheckSquare className='w-10 h-10 text-red-500'/>
+      <p className='text-[#747474]'>We believe in quality work as the most important factor. We also have 14 years of experience in concrete, being a company that is operated and directed by its owner and founder. We are a family owned company with a team of professionals who are committed in giving you high quality service. We follow security regulations and guarantee our projects to satisfy our clients needs.</p>
     </div>
   )
 }
