@@ -9,7 +9,7 @@ export async function POST(req){
     port: 465,
     auth: {
         user: process.env.HOST_USERNAME,
-        pass: process.env.HOST_PASWORD
+        pass: process.env.HOST_PASSWORD
     }
 });
   transporter.verify(function(error, success) {
