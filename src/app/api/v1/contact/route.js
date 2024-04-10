@@ -8,8 +8,8 @@ export async function POST(req){
     host: "mail.privateemail.com",
     port: 465,
     auth: {
-        user: process.env.HOST_USERNAME,
-        pass: process.env.HOST_PASSWORD
+        user: "lenynht@nkconstructionllc.com",
+        pass: "Nkconst1234$"
     }
 });
   transporter.verify(function(error, success) {
