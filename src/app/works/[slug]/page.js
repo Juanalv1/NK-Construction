@@ -103,6 +103,14 @@ export async function generateMetadata({ params  }) {
       alternates: {
         canonical: `https://nkconstructionllc.com/works/${slug}`,
       },
+      openGraph: {
+        title: `${worktype.work_name} | Nk Construction`,
+        description: `View ${worktype.description.slice(0, 150)}`,
+        type: 'website',
+        images: [
+          ...worktype.photos
+        ]
+      },
     }
   }
 
