@@ -8,7 +8,7 @@ import { Carousel } from "flowbite-react";
 import Link from 'next/link'
 export const metadata = {
   title: 'Nk construction | Concrete Construction service',
-  description: 'NK Construction LLC specializes in professional concrete construction services in Dallas, USA. Trust our experienced team for high-quality concrete solutions. Contact us today for your construction needs!',
+  description: 'NK Construction LLC specializes in professional concrete construction services in Dallas, USA. Trust our experienced team for high-quality concrete solutions',
   alternates: {
     canonical: `https://nkconstructionllc.com`,
   },
