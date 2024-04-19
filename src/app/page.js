@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col scroll-smooth relative">
-      <section className='flex relative bg-[url(/bg-prueba.jpg)] justify-center items-center bg-cover bg-center  lg:px-16 flex-col lg:flex-row py-6 lg:py-36 '>
+      <section className='flex relative bg-[url(https://i.postimg.cc/bJmgKhgM/bg-prueba-min.jpg)] justify-center items-center bg-cover bg-center  lg:px-16 flex-col lg:flex-row py-6 lg:py-36 '>
         <div className='mx-6 text-black rounded-lg p-4  lg:w-1/2 text-center '>
           <div className='w-full h-full absolute top-0 right-0 bg-gray-900 opacity-50 rounded-lg z-10 '></div>
           <div className=' rounded-lg z-30 relative '>          
