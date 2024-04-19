@@ -8,6 +8,7 @@ import { Carousel } from "flowbite-react";
 import Link from 'next/link'
 import { images } from '../../next.config'
 export const metadata = {
+  metadataBase: new URL(`https://nkconstructionllc.com`),
   title: 'Nk construction | Concrete Construction service',
   description: 'NK Construction LLC specializes in professional concrete construction services in Dallas, USA. Trust our experienced team for high-quality concrete solutions',
   alternates: {

@@ -98,6 +98,7 @@ export async function generateMetadata({ params  }) {
   const worktype = data.find((work) => work.work_name.toLowerCase() == slug.toLowerCase().replace(/-/g, ' '))
   if (worktype) {
     return {
+      metadataBase: new URL(`https://nkconstructionllc.com/works/${slug}`),
       title: `${worktype.work_name} | Nk Construction`,
       description: `View ${worktype.description.slice(0, 150)}`,
       alternates: {
