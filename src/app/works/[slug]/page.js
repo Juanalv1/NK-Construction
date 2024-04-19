@@ -99,7 +99,7 @@ export async function generateMetadata({ params  }) {
   if (worktype) {
     return {
       title: `${worktype.work_name} | Nk Construction`,
-      description: `View ${worktype.description}`,
+      description: `View ${worktype.description.slice(0, 150)}`,
       alternates: {
         canonical: `https://nkconstructionllc.com/works/${slug}`,
       },
@@ -118,7 +118,7 @@ const Works = ({ params }) => {
     { worktype && (<>
       <div className='flex flex-col lg:flex-row lg:mb-12'>
       <div className='flex lg:p-8 w-full lg:w-1/2 justify-center items-center'>
-        <img src={worktype.photos[0]} className='rounded max-w-[450px] w-full'/>
+        <img src={worktype.photos[0]} className='rounded max-w-[450px] w-full' alt={worktype.work_name}/>
       </div>
       <div className='mt-4 mb-12 lg:p-4 w-full lg:w-1/2 text-black'>
         <h1 className='text-red-500 text-3xl font-semibold'>{worktype.work_name}</h1>

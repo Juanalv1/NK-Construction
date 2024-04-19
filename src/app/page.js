@@ -8,7 +8,7 @@ import { Carousel } from "flowbite-react";
 import Link from 'next/link'
 export const metadata = {
   title: 'Nk construction | Concrete Construction service',
-  description: 'Nk construction provides best concrete pumping service in Dallas',
+  description: 'NK Construction LLC specializes in professional concrete construction services in Dallas, USA. Trust our experienced team for high-quality concrete solutions. Contact us today for your construction needs!',
   alternates: {
     canonical: `https://nkconstructionllc.com`,
   },
@@ -37,38 +37,38 @@ export default function Home() {
 
       </section>
       <section className='bg-white py-8 px-4' id='work'>
-        <h1 className='text-red-500 text-2xl font-semibold text-center mb-4'>See our work</h1>
+        <h2 className='text-red-500 text-2xl font-semibold text-center mb-4'>See our work</h2>
         <div className='grid lg:grid-cols-3 place-items-center gap-x-6 gap-y-8 text-white lg:px-12 lg:py-8 md:px-8 mb-8 lg:mb-0'>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/driveways'}>
               <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/ncT1QYPw/dw1.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/ncT1QYPw/dw1.jpg' className='rounded-lg w-full h-full' alt="driveways"/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Driveways</p>
             </Link>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/pool-decks'}>
             <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/Y9ChmYLM/Imagen-de-Whats-App-2024-04-06-a-las-14-42-24-15d0dc36.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/Y9ChmYLM/Imagen-de-Whats-App-2024-04-06-a-las-14-42-24-15d0dc36.jpg' className='rounded-lg w-full h-full' alt="pool-decks"/>
               <p className='absolute top-4 right-4 text-xl  font-semibold '>Pool decks</p>
             </Link>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/walk-ways'}>
             <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/256MBt6y/ww1.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/256MBt6y/ww1.jpg' className='rounded-lg w-full h-full' alt="walk-ways"/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Walk ways</p>
             </Link>
           </div>
           <div className='grid lg:grid-cols-3 md-grid-cols- gap-x-6 gap-y-8 text-white lg:px-12 lg:py-8 md:px-8 place-content-center place-items-center'>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/patios'}>
             <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/Y9nxVgJS/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-49d688ca.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/Y9nxVgJS/Imagen-de-Whats-App-2024-04-06-a-las-16-44-58-49d688ca.jpg' className='rounded-lg w-full h-full' alt="patios"/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Patios</p>
             </Link>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/decorative-concrete'}>
             <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/RCDKVBLD/dw1.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/RCDKVBLD/dw1.jpg' className='rounded-lg w-full h-full' alt="decorative-concrete"/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Decorative Concrete</p>
             </Link>
             <Link className='relative hover:shadow-2xl cursor-pointer hover:border-2 border-solid border-red-500 rounded-lg lg:w-96 max-w-96 lg:h-72' href={'/works/concrete-pumping'}>
             <div className='absolute w-full h-full top-0 right-0 bg-gray-700 opacity-50 hover:opacity-0'></div>
-              <img src='https://i.postimg.cc/y85HTRG7/Imagen-de-Whats-App-2024-04-06-a-las-14-50-33-0043d706.jpg' className='rounded-lg w-full h-full'/>
+              <img src='https://i.postimg.cc/y85HTRG7/Imagen-de-Whats-App-2024-04-06-a-las-14-50-33-0043d706.jpg' className='rounded-lg w-full h-full' alt="concrete-pumping"/>
               <p className='absolute top-4 right-4 text-xl  font-semibold'>Concrete Pumping</p>
             </Link>
           </div>
