@@ -1,18 +1,18 @@
 import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
-export async function POST(req){
-  const {email, name, phone_number, description} = await req.json()
+export async function POST(req) {
+  const { email, name, phone_number, description } = await req.json()
 
   const transporter = nodemailer.createTransport({
     host: "mail.privateemail.com",
     port: 465,
     auth: {
-        user: "lenynht@nkconstructionllc.com",
-        pass: "Nkconst1234$"
+      user: "lenynht@nkconstructionllc.com",
+      pass: "Nkconst1234$"
     }
-});
-  transporter.verify(function(error, success) {
+  });
+  transporter.verify(function (error, success) {
     if (error) {
       console.error('Error al verificar la conexión con el servidor SMTP:', error);
     } else {
@@ -21,16 +21,16 @@ export async function POST(req){
   });
   const mailOptions = {
     from: 'lenynht@nkconstructionllc.com', // Remitente
-    to: 'lenynht@nkconstructionllc.com', // Destinatario
+    to: 'nk92construction@gmail.com', // Destinatario
     subject: 'Nuevo Contacto de proyecto', // Asunto
-    text: 
+    text:
       `Nombre: ${name}
 Telefono: ${phone_number}
 Correo: ${email}
 Descripcion: ${description}` // Contenido del correo
   };
 
-  transporter.sendMail(mailOptions, function(error, info) {
+  transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
       console.error('Error al enviar el correo electrónico:', error);
     } else {
